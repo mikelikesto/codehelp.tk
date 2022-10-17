@@ -1,0 +1,165 @@
+h2 {
+  text-align: center;
+  color: lightgray;
+}
+
+h1 {
+  color: lightgray;
+}
+
+
+h3 {
+  color: lightgray;
+}
+
+
+body {
+background-color:#27272b;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li c {
+
+  float: center;
+}
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+li img {
+  height: 50px;
+  width: 50px;
+  margin: 1px;`
+}
+
+div {
+  text-align: center;
+}
+
+img {
+  text-align: center;
+  height: 250px;
+  border-radius: 50px;
+  margin: 20px;
+}
+
+h2 {
+  font-size: 50px;
+}
+
+
+.container {
+  display: grid; 
+  grid-auto-rows: 1fr; 
+  grid-template-columns: 1fr 1fr 1fr 1fr; 
+  grid-template-rows: 1fr 1fr 1fr; 
+  gap: 0px 0px; 
+  grid-template-areas: 
+    ". Photo Text ."
+    ". text2 photo2 ."
+    ". photo3 text3 ."; 
+}
+.Photo { grid-area: Photo; }
+.Text { grid-area: Text; }
+.text2 { grid-area: text2; }
+.photo2 { grid-area: photo2; }
+.photo3 { grid-area: photo3; }
+.text3 { grid-area: text3; }
+
+
+.button {
+  background-color: #333;;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  font-size: 16px;
+  margin-left: 50px;
+  margin-top: 100px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 10px;
+
+  
+  height: 100px;
+
+  width: 300px;
+}
+
+.button:hover {background-color: #111}
+
+.frame{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+
+.containerF {
+  display: grid; 
+  grid-auto-rows: 1fr; 
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
+  grid-template-rows: 1.5fr 0.4fr 1.3fr 1.1fr; 
+  gap: 0px 0px; 
+  grid-template-areas: 
+    ". Photo1 Photo2 Photo3 ."
+    ". Text1 Text2 Text3 ."
+    ". Photo4 Photo5 Photo6 ."
+    ". Text4 Text5 Text6 ."; 
+}
+.Photo1 { grid-area: Photo1; }
+.Photo2 { grid-area: Photo2; }
+.Photo3 { grid-area: Photo3; }
+.Text1 { grid-area: Text1; }
+.Text2 { grid-area: Text2; }
+.Text3 { grid-area: Text3; }
+
+
+.Photo4 { grid-area: Photo4; 
+        margin-left:60px;
+        
+        }
+.Photo5 { grid-area: Photo5; 
+        margin-left:120px;
+        
+        }
+.Photo6 { grid-area: Photo6; 
+         margin-left:120px;
+        }
+.Text4 { grid-area: Text4; 
+       margin-right:60px;
+       
+       }
+.Text5 { grid-area: Text5; 
+       
+       }
+.Text6 { grid-area: Text6; 
+       
+       
+       }
+
+.a {
+  text-aling: center;
+}
